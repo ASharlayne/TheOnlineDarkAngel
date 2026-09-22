@@ -32,6 +32,9 @@ Then visit <http://localhost:8000>.
 │   └── workflows/
 │       └── deploy-pages.yml
 ├── public/
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── deploy-pages.yml
 │   ├── .nojekyll
 │   └── index.html
 └── README.md
