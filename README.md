@@ -6,7 +6,7 @@ The page presents both shoe silhouettes, explains the reservation process, and l
 
 ## Live site
 
-This project is configured for deployment with GitHub Pages through the [`deploy-pages.yml`](https://github.com/ASharlayne/TheOnlineDarkAngel/blob/main/.github/workflows/deploy-pages.yml) workflow. The deployable site files live in [`public/`](./public/).
+This project is configured for deployment with GitHub Pages through the [`deploy-pages.yml`](https://github.com/ASharlayne/TheOnlineDarkAngel/blob/main/.github/workflows/deploy-pages.yml) workflow. The deployable site entry point is [`index.html`](./index.html) at the repository root.
 
 After the repository is pushed to GitHub:
 
@@ -16,7 +16,7 @@ After the repository is pushed to GitHub:
 
 ## Local preview
 
-No build tools or dependencies are required. Open [`public/index.html`](./public/index.html) directly in a browser, or serve the project folder with any static file server:
+No build tools or dependencies are required. Open [`index.html`](./index.html) directly in a browser, or serve the project folder with any static file server:
 
 ```powershell
 python -m http.server 8000
@@ -31,12 +31,8 @@ Then visit <http://localhost:8000>.
 ├── .github/
 │   └── workflows/
 │       └── deploy-pages.yml
-├── public/
-│   ├── .github/
-│   │   └── workflows/
-│   │       └── deploy-pages.yml
-│   ├── .nojekyll
-│   └── index.html
+├── .nojekyll
+├── index.html
 └── README.md
 ```
 
