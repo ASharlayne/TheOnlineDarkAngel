@@ -6,7 +6,7 @@ The page presents both shoe silhouettes, explains the reservation process, and l
 
 ## Live site
 
-This project is configured for deployment with GitHub Pages through [`.github/workflows/deploy-pages.yml`](./.github/workflows/deploy-pages.yml). The deployable site files live in [`public/`](./public/).
+This project is configured for deployment with GitHub Pages through the [`deploy-pages.yml`](https://github.com/ASharlayne/TheOnlineDarkAngel/blob/main/.github/workflows/deploy-pages.yml) workflow. The deployable site files live in [`public/`](./public/).
 
 After the repository is pushed to GitHub:
 
