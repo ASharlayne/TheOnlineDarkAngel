@@ -1,4 +1,4 @@
-# TheOnlineDarkAngel
+# Dark Angel
 
 Dark Angel is a single-page campaign site for Ashley Woods' limited sneaker release with AliveShoes.
 
